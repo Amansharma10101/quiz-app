@@ -1,0 +1,32 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.quiz-start button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quiz-question ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-question li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.quiz-question li:hover {
+  background-color: #f0f0f0;
+}
+
+.quiz-summary button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
