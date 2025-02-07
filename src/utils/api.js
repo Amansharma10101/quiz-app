@@ -6,7 +6,7 @@ export const fetchQuizData = async () => {
   try {
     const response = await axios.get(API_URL);
    
-    return response.data.questions; // Extract the questions array
+    return response.data.questions; 
   } catch (error) {
     console.error('Error fetching quiz data:', error);
     throw error;
